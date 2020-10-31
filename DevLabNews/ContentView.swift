@@ -9,17 +9,23 @@ import SwiftUI
 import CoreData
 
 struct ContentView: View {
+  
+  @State private var selection = 1
 
   var body: some View {
-    TabView {
+    TabView(selection: $selection) {
+      SavedListView()
+        .tabItem {
+          Text("Saved")
+        }.tag(0)
       TopNewsView()
         .tabItem {
-          Text("TOP")
-        }.tag(0)
+          Text("Top News")
+        }.tag(1)
       CategoriesView()
         .tabItem {
-          Text("CAT")
-        }.tag(1)
+          Text("Categories")
+        }.tag(2)
     }
   }
 }
