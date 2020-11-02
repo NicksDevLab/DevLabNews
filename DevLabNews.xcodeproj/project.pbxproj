@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01515484254EF1C20099C205 /* ArticleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01515483254EF1C20099C205 /* ArticleListView.swift */; };
+		01515487254EF1DC0099C205 /* ArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01515486254EF1DC0099C205 /* ArticleView.swift */; };
+		0151548A254EF3710099C205 /* TestData.json in Resources */ = {isa = PBXBuildFile; fileRef = 01515489254EF3710099C205 /* TestData.json */; };
+		0151548D254EF7140099C205 /* TestArticles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0151548C254EF7140099C205 /* TestArticles.swift */; };
 		01834866254DB9F20052F492 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01834865254DB9F20052F492 /* NetworkManager.swift */; };
 		01834869254DBAE30052F492 /* NewsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01834868254DBAE30052F492 /* NewsItem.swift */; };
 		0183486C254DC7E80052F492 /* TopNewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0183486B254DC7E80052F492 /* TopNewsView.swift */; };
@@ -21,6 +25,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01515483254EF1C20099C205 /* ArticleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ArticleListView.swift; path = ../../../../ArticleListView.swift; sourceTree = "<group>"; };
+		01515486254EF1DC0099C205 /* ArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ArticleView.swift; path = ../../../../ArticleView.swift; sourceTree = "<group>"; };
+		01515489254EF3710099C205 /* TestData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = TestData.json; path = ../../../../TestData.json; sourceTree = "<group>"; };
+		0151548C254EF7140099C205 /* TestArticles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TestArticles.swift; path = ../../../../TestArticles.swift; sourceTree = "<group>"; };
 		01834865254DB9F20052F492 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NetworkManager.swift; path = ../../../../NetworkManager.swift; sourceTree = "<group>"; };
 		01834868254DBAE30052F492 /* NewsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NewsItem.swift; path = ../../../../NewsItem.swift; sourceTree = "<group>"; };
 		0183486B254DC7E80052F492 /* TopNewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TopNewsView.swift; path = ../../../../TopNewsView.swift; sourceTree = "<group>"; };
@@ -70,6 +78,8 @@
 				018BF27B254D94C80097F8E4 /* ContentView.swift */,
 				01834871254DD7E80052F492 /* SavedListView.swift */,
 				0183486B254DC7E80052F492 /* TopNewsView.swift */,
+				01515486254EF1DC0099C205 /* ArticleView.swift */,
+				01515483254EF1C20099C205 /* ArticleListView.swift */,
 				0183486E254DC8F00052F492 /* CategoriesView.swift */,
 				018BF27D254D94C90097F8E4 /* Assets.xcassets */,
 				018BF282254D94C90097F8E4 /* Persistence.swift */,
@@ -77,6 +87,8 @@
 				018BF284254D94C90097F8E4 /* DevLabNews.xcdatamodeld */,
 				018BF27F254D94C90097F8E4 /* Preview Content */,
 				01834865254DB9F20052F492 /* NetworkManager.swift */,
+				01515489254EF3710099C205 /* TestData.json */,
+				0151548C254EF7140099C205 /* TestArticles.swift */,
 				01834868254DBAE30052F492 /* NewsItem.swift */,
 			);
 			path = DevLabNews;
@@ -148,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				018BF281254D94C90097F8E4 /* Preview Assets.xcassets in Resources */,
+				0151548A254EF3710099C205 /* TestData.json in Resources */,
 				018BF27E254D94C90097F8E4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -159,7 +172,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0151548D254EF7140099C205 /* TestArticles.swift in Sources */,
 				0183486F254DC8F00052F492 /* CategoriesView.swift in Sources */,
+				01515484254EF1C20099C205 /* ArticleListView.swift in Sources */,
 				0183486C254DC7E80052F492 /* TopNewsView.swift in Sources */,
 				01834872254DD7E80052F492 /* SavedListView.swift in Sources */,
 				018BF283254D94C90097F8E4 /* Persistence.swift in Sources */,
@@ -168,6 +183,7 @@
 				01834866254DB9F20052F492 /* NetworkManager.swift in Sources */,
 				018BF286254D94C90097F8E4 /* DevLabNews.xcdatamodeld in Sources */,
 				018BF27A254D94C80097F8E4 /* DevLabNewsApp.swift in Sources */,
+				01515487254EF1DC0099C205 /* ArticleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
