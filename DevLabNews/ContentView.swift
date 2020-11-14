@@ -22,7 +22,7 @@ struct ContentView: View {
         .tabItem {
           Text("Top News")
         }.tag(1)
-      CategoriesView()
+      CategoriesListView()
         .tabItem {
           Text("Categories")
         }.tag(2)
